@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head lang="uk">
+    <meta charset="UTF-8">
+    <title>My Page</title>
+
+
+    <link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+<body>
+<div class ="general">
+    <div class= "shop">
+        <div class="lable">
+            <input type ="text"placeholder = "Назва товару">
+            <button class = "AddButton">Додати</button>
+        </div>
+        <div class = "product">
+            <div class = "productName">
+                <span class = "productName">Манга</span>
+           
+                <button class = "less">-</button>
+                <span class = "count">1</span>
+                <button class = "more">+</button>
+            
+                <button class = "buying">Купити</button>
+                <button class = "delete">x</button>
+                
+            </div>
+            </div>
+        <div class = "product">
+            <div class = "productName">
+                <span class = "productName">Докимакура</span>
+           
+                <button class = "less">-</button>
+                <span class = "count">1</span>
+                <button class = "more">+</button>
+
+                <button class = "buying">Купити</button>
+                <button class = "delete">x</button>
+            </div>
+            </div>
+        <div class = "product">
+            <div class = "productName">
+                <span class = "productName">ЖоЖо Фигурка</span>
+         
+                <button class = "less">-</button>
+                <span class = "count">1</span>
+                <button class = "more">+</button>
+           
+                <button class = "buying">Купити</button>
+                <button class = "delete">x</button>
+                </div>
+            </div>
+    </div>
+    
+    <div class = "basket">
+        <span class = "left">Залишилось</span> 
+      
+        <div class = "productLeft">
+         <snap class = "productNameLeft">Манга</snap>
+         <snap class ="countLeft">1</snap>
+        
+        <snap class = "productNameLeft">Докимакура</snap>
+         <snap class ="countLeft">1</snap>
+        
+        <snap class = "productNameLeft">ЖоЖо Фигурка</snap>
+         <snap class ="countLeft">1</snap>
+    </div>
+        <span class="Buy">Куплено</span>
+    </div>
+    </div>
+    </body>
